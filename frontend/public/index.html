@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aeonify - Particle Text</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div id="info">aeonify.net</div>
+        <div class="burger-menu">
+            <div class="burger-icon" onclick="toggleMenu()">&#9776;</div>
+        </div>
+        <div id="menu" class="hidden">
+            <a href="#">Home</a>
+            <a href="#">Founder</a>
+            <a href="#">Info</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <h1>Welcome to Aeonify</h1>
+        <p>This is a demo of particle text rendering using Three.js. The rendering only appears at the top of the page.</p>
+        <p>The rest of this page is normal content.</p>
+
+        <section id="business-info">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a urna vitae lacus luctus tempus. Vivamus non sagittis tortor, at cursus justo. Cras in sollicitudin turpis.</p>
+            <p>Proin luctus tincidunt arcu sit amet feugiat. Maecenas ultricies tincidunt odio, nec condimentum libero condimentum in. Fusce venenatis sollicitudin dolor, nec tristique odio scelerisque non.</p>
+        </section>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
+
